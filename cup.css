@@ -1,0 +1,47 @@
+.container{
+    height: 500px;
+    width: 800px;
+    background-color:white;
+    box-shadow: 10px 10px 10px gray,-5px -5px gray;
+    
+    border-radius: 20px;
+    display: grid;
+    place-content: center;
+    grid-gap: 4px;
+    grid-template-columns: 0.8fr 1fr;
+    grid-template-areas: 
+    "ig tx" ;
+}
+#image{
+    grid-area: ig;
+}
+.text{
+    grid-area: tx;
+    padding:10px ;
+    
+}
+img{
+    height: 500px;
+    width: 25em;
+    width: px;
+    object-fit: cover;
+    border: 20px;   
+}
+button{
+    position: relative;
+    background-color: rgb(18, 228, 158);
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    color: white;
+    border: 1px solid gray;
+    top: 40px;
+}
+#grey{
+    color: gainsboro;
+}
+#hara{
+    color: rgb(12, 232, 159);
+    font-size: 30px;
+
+}
